@@ -35,7 +35,6 @@ try {
     echo '</ul>';
 
     // Insert data into the 'users' table
-    $insertQuery = "INSERT INTO users (name, email) VALUES ('John Doe', 'john.doe@example.com')";
     $insertQuery = "INSERT INTO users (name, email) VALUES ('santoshD', 'santoshdabbannavar2@gmail.com')";
     $pdo->exec($insertQuery);
     echo '<p>New record created successfully.</p>';
